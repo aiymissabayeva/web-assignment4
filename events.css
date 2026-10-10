@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-color: #cbeef3;
+    color: #880d1e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box {
+    width: 150px;
+    height: 150px;
+    background-color: #dd2d4a;
+    border-radius: 15px;
+    margin: 20px 30px;
+    box-shadow: 0 5px 15px rgba(136, 13, 30, 0.15);
+    transition: background-color 0.3s ease;
+}
+
+h2 {
+    color: #880d1e;
+    margin: 35px 30px 20px;
+}
+
+#textInput {
+    padding: 12px 15px;
+    margin: 10px 30px;
+    width: 280px;
+    max-width: 80%;
+    border: 2px solid #f26a8d;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+#textInput:focus {
+    border-color: #880d1e;
+}
+
+#output {
+    background-color: #f49cbb;
+    padding: 15px 20px;
+    margin: 15px 30px;
+    min-height: 25px;
+    max-width: 500px;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+}
+
+#num1,
+#num2,
+#operation {
+    padding: 12px 15px;
+    margin: 10px;
+    border: 2px solid #f26a8d;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: #880d1e;
+}
+
+#num1 {
+    margin-left: 30px;
+}
+
+#num1,
+#num2 {
+    width: 150px;
+}
+
+#operation {
+    cursor: pointer;
+}
+
+#calculate {
+    background-color: #dd2d4a;
+    color: white;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#calculate:hover {
+    background-color: #880d1e;
+    transform: translateY(-2px);
+}
+
+#result {
+    background-color: #f49cbb;
+    padding: 15px 20px;
+    margin: 20px 30px;
+    min-height: 25px;
+    max-width: 500px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+    color: blanchedalmond;
+}
+
+@media (max-width: 600px) {
+    h2 {
+        margin: 25px 15px 15px;
+    }
+
+    #box {
+        margin-left: 15px;
+    }
+
+    #textInput,
+    #output,
+    #result {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #num1,
+    #num2,
+    #operation {
+        display: block;
+        width: calc(100% - 60px);
+        box-sizing: border-box;
+        margin: 10px 15px;
+    }
+
+    #calculate {
+        margin: 10px 15px;
+    }
+}
