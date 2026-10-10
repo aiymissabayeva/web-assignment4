@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #cbeef3;
+    color: #880d1e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 25px 30px;
+}
+
+#container {
+    background-color: #f49cbb;
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(136, 13, 30, 0.15);
+}
+
+h2 {
+    color: #880d1e;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #dd2d4a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    margin: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #880d1e;
+    transform: translateY(-2px);
+}
+
+#myList {
+    background-color: #cbeef3;
+    border-radius: 10px;
+    padding: 20px 20px 20px 45px;
+    margin: 20px 0;
+}
+
+#myList li {
+    background-color: #f49cbb;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+@media (max-width: 600px) {
+    #container {
+        width: auto;
+        margin: 20px 15px;
+        padding: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
