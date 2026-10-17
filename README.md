@@ -1,7 +1,7 @@
-# Assignment 4 - JavaScript Basics
+# Assignment 5 - JavaScript Basics
 
 ## Description
-This project was created for Assignment 4 to practice JavaScript basics, DOM manipulation, event handling, and interactive web development.
+This project was created for Assignment 5 to practice JavaScript basics, DOM manipulation, event handling, and interactive web development.
 
 The website contains four pages with different JavaScript tasks.
 
